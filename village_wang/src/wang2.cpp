@@ -23,7 +23,6 @@ private:
     // 声明一个订阅者（成员变量）
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_;
 
-    rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::UInt32>::SharedPtr pub_;
 
     void topic_callback(const std_msgs::msg::String::SharedPtr msg) const
