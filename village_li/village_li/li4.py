@@ -2,6 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String,UInt32
+from village_interfaces.srv import BorrowMoney
 
 class Li4Node(Node):
     """
@@ -18,6 +19,17 @@ class Li4Node(Node):
         self.account = 0
         # 开启收钱箱
         self.sub_ = self.create_subscription(UInt32,"sexy_girl_money",self.recv_money_callback,10)
+        # 新建借钱服务
+        self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.callback_set_led)
+    
+    def borrow_money_callback(self,request, response):
+        self.get_logger().info("recv borrow request: %s" % request.name)
+        return response
+
+    def callback_set_led(self, request, response):
+        response.success = True
+        return response
+
 
     def timer_callback(self):
         msg = String()
