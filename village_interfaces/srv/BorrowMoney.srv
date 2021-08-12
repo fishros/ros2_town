@@ -1,0 +1,5 @@
+std_msgs/String name
+std_msgs/UInt32 money
+---
+std_msgs/Bool success
+std_msgs/UInt32 money
