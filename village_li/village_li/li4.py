@@ -12,24 +12,34 @@ class Li4Node(Node):
         super().__init__("li4")
         self.get_logger().info("大家好，我是李四,我是一名作家！")
         self.write = self.create_publisher(String,"sexy_girl", 10) 
-        timer_period = 1  #李四的手速，每1s写一段话，够不够快
+        timer_period = 5  #李四的手速，每1s写一段话，够不够快
         self.timer = self.create_timer(timer_period, self.timer_callback)  #启动一个定时装置，每 1 s,调用一次time_callback函数
         self.i = 0 # i 是个计数器，用来算章节编号的
         # 账户钱的数量
-        self.account = 0
+        self.account = 80
         # 开启收钱箱
         self.sub_ = self.create_subscription(UInt32,"sexy_girl_money",self.recv_money_callback,10)
         # 新建借钱服务
-        self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.callback_set_led)
-    
+        self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.borrow_money_callback)
+
     def borrow_money_callback(self,request, response):
-        self.get_logger().info("recv borrow request: %s" % request.name)
+        """
+        借钱回调函数
+        参数：request 客户端请求
+             response： 服务端响应
+        返回值：response
+        """
+        self.get_logger().info("收到来自: %s 的借钱请求，目前账户内还有%d元" % (request.name.data, self.account))
+        if request.money.data <= int(self.account*0.1):
+            response.success.data = True
+            response.money.data = request.money.data
+            self.account = self.account - request.money.data
+            self.get_logger().info("借钱成功，借出%d 元 ,目前账户余额%d 元" % (response.money.data,self.account))
+        else:
+            response.success.data = False
+            response.money.data = 0
+            self.get_logger().info("对不起兄弟，手头紧,不能借给你")
         return response
-
-    def callback_set_led(self, request, response):
-        response.success = True
-        return response
-
 
     def timer_callback(self):
         msg = String()
@@ -40,7 +50,7 @@ class Li4Node(Node):
 
     def recv_money_callback(self,money):
         self.account += money.data
-        self.get_logger().log('李四：我已经收到了%d的稿费' % self.account)
+        #self.get_logger().info('李四：我已经收到了%d的稿费' % self.account)
 
 
 def main(args=None):
