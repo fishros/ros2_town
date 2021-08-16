@@ -17,19 +17,19 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-
 # uncomment the following section in order to fill in
 # further dependencies manually.
-#添加对sensor_msgs的依赖
+#查找sensor_msgs库
 find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+#添加消息文件和依赖
 rosidl_generate_interfaces(${PROJECT_NAME}
   #---msg---
   "msg/Novel.msg"
   #---srv---
   "srv/BorrowMoney.srv"
   "srv/SellNovel.srv"
-   DEPENDENCIES  sensor_msgs
+   DEPENDENCIES sensor_msgs
  )
 
 if(BUILD_TESTING)

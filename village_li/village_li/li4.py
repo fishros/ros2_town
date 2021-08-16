@@ -2,6 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String,UInt32
+#从村庄接口服务类中导入借钱服务
 from village_interfaces.srv import BorrowMoney
 
 class Li4Node(Node):
@@ -29,6 +30,7 @@ class Li4Node(Node):
              response： 服务端响应
         返回值：response
         """
+        #根据李四借钱规则，借出去的钱不能多于自己所有钱的十分之一，不然就不借
         self.get_logger().info("收到来自: %s 的借钱请求，目前账户内还有%d元" % (request.name, self.account))
         if request.money <= int(self.account*0.1):
             response.success = True
