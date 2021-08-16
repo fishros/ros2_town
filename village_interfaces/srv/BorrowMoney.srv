@@ -1,5 +1,5 @@
-std_msgs/String name
-std_msgs/UInt32 money
+string name
+uint32 money
 ---
-std_msgs/Bool success
-std_msgs/UInt32 money
+bool success
+uint32 money

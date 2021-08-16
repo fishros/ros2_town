@@ -18,6 +18,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(village_interfaces REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -33,7 +34,9 @@ endif()
 ament_package()
 
 add_executable(wang2_node src/wang2.cpp)
-ament_target_dependencies(wang2_node rclcpp)
+ament_target_dependencies(wang2_node 
+  rclcpp 
+  village_interfaces)
 
 install(TARGETS
   wang2_node

@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 from village_interfaces.srv import BorrowMoney
-import threading
+from functools import partial
 
 class Li3Node(Node):
     """
@@ -30,22 +30,22 @@ class Li3Node(Node):
         # 构建请求内容
         request = BorrowMoney.Request()
         #将当前节点名称作为借钱者姓名
-        request.name.data = self.get_name()
+        request.name = self.get_name()
         #借钱金额5元
-        request.money.data = 5
+        request.money = 10
         #发送异步借钱请求，借钱成功后就调用borrow_respoonse_callback()函数
-        self.borrow_money_client_.call_async(request).add_done_callback(self.borrow_respoonse_callback)
+        self.borrow_money_client_.call_async(request).add_done_callback(partial(self.borrow_respoonse_callback,money=request.money))
 
-    def borrow_respoonse_callback(self,response):
+    def borrow_respoonse_callback(self,response,money):
         """
         借钱结果回调
         """
         # 打印一下信息
         result = response.result()
-        if result.success.data == True:
-            self.get_logger().info("果然是亲弟弟，借到%d,吃麻辣烫去了" % result.money.data)
+        if result.success == True:
+            self.get_logger().info("果然是亲弟弟，借到%d,吃麻辣烫去了" % result.money)
         else:
-            self.get_logger().info("害，连十块钱都不借")
+            self.get_logger().info("害，连%d块钱都不借,我还是不是他亲哥了" % money)
 
     def recv_callback(self,novel):
         """

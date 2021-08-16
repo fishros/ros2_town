@@ -29,15 +29,15 @@ class Li4Node(Node):
              response： 服务端响应
         返回值：response
         """
-        self.get_logger().info("收到来自: %s 的借钱请求，目前账户内还有%d元" % (request.name.data, self.account))
-        if request.money.data <= int(self.account*0.1):
-            response.success.data = True
-            response.money.data = request.money.data
-            self.account = self.account - request.money.data
-            self.get_logger().info("借钱成功，借出%d 元 ,目前账户余额%d 元" % (response.money.data,self.account))
+        self.get_logger().info("收到来自: %s 的借钱请求，目前账户内还有%d元" % (request.name, self.account))
+        if request.money <= int(self.account*0.1):
+            response.success = True
+            response.money = request.money
+            self.account = self.account - request.money
+            self.get_logger().info("借钱成功，借出%d 元 ,目前账户余额%d 元" % (response.money,self.account))
         else:
-            response.success.data = False
-            response.money.data = 0
+            response.success = False
+            response.money = 0
             self.get_logger().info("对不起兄弟，手头紧,不能借给你")
         return response
 
