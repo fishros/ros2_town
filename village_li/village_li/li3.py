@@ -36,7 +36,7 @@ class Li3Node(Node):
         #发送异步借钱请求，借钱成功后就调用borrow_respoonse_callback()函数
         self.borrow_money_client_.call_async(request).add_done_callback(partial(self.borrow_respoonse_callback,money=request.money))
 
-    def borrow_respoonse_callback(self,response,money):
+    def borrow_respoonse_callback(self,response):
         """
         借钱结果回调
         """
@@ -45,7 +45,7 @@ class Li3Node(Node):
         if result.success == True:
             self.get_logger().info("果然是亲弟弟，借到%d,吃麻辣烫去了" % result.money)
         else:
-            self.get_logger().info("害，连%d块钱都不借,我还是不是他亲哥了" % money)
+            self.get_logger().info("害，连几块钱都不借,我还是不是他亲哥了，世态炎凉呀")
 
     def recv_callback(self,novel):
         """
@@ -62,5 +62,6 @@ def main(args=None):
     rclpy.init(args=args) # 初始化rclpy
     node = Li3Node()  # 新建一个节点
     node.borrow_money_eat() #李四借钱
-    rclpy.spin(node) # 保持节点运行，检测是否收到退出指令（Ctrl+C）
+    # rclpy.spin(node) # 保持节点运行，检测是否收到退出指令（Ctrl+C）  
+    rclpy.spin_once(node)
     rclpy.shutdown() # rcl关闭

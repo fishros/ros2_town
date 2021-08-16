@@ -13,7 +13,7 @@ class Li4Node(Node):
         super().__init__("li4")
         self.get_logger().info("大家好，我是李四,我是一名作家！")
         self.write = self.create_publisher(String,"sexy_girl", 10) 
-        timer_period = 5  #李四的手速，每1s写一段话，够不够快
+        timer_period = 5  #每5s写一章节话
         self.timer = self.create_timer(timer_period, self.timer_callback)  #启动一个定时装置，每 1 s,调用一次time_callback函数
         self.i = 0 # i 是个计数器，用来算章节编号的
         # 账户钱的数量
