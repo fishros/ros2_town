@@ -3,7 +3,6 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 from village_interfaces.srv import BorrowMoney
-from functools import partial
 
 class Li3Node(Node):
     """
@@ -31,10 +30,10 @@ class Li3Node(Node):
         request = BorrowMoney.Request()
         #将当前节点名称作为借钱者姓名
         request.name = self.get_name()
-        #借钱金额5元
+        #借钱金额10元
         request.money = 10
         #发送异步借钱请求，借钱成功后就调用borrow_respoonse_callback()函数
-        self.borrow_money_client_.call_async(request).add_done_callback(partial(self.borrow_respoonse_callback,money=request.money))
+        self.borrow_money_client_.call_async(request).add_done_callback(self.borrow_respoonse_callback)
 
     def borrow_respoonse_callback(self,response):
         """
@@ -61,7 +60,6 @@ def main(args=None):
     """
     rclpy.init(args=args) # 初始化rclpy
     node = Li3Node()  # 新建一个节点
-    node.borrow_money_eat() #李四借钱
-    # rclpy.spin(node) # 保持节点运行，检测是否收到退出指令（Ctrl+C）  
-    rclpy.spin_once(node)
+    node.borrow_money_eat() #李三借钱
+    rclpy.spin(node) # 保持节点运行，检测是否收到退出指令（Ctrl+C）  
     rclpy.shutdown() # rcl关闭
