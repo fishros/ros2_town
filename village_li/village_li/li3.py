@@ -25,7 +25,7 @@ class Li3Node(Node):
         self.get_logger().info("找我弟借钱吃麻辣烫喽")
         #等待服务启动，每1s检查一次，如果服务没有启动，则一直循环
         while not self.borrow_money_client_.wait_for_service(1.0):
-            self.get_logger().warn("我弟不在线，我再等等。")
+            self.get_logger().warn("我弟不在线，我再等等")
         # 构建请求内容
         request = BorrowMoney.Request()
         #将当前节点名称作为借钱者姓名
