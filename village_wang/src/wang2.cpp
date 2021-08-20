@@ -19,7 +19,6 @@ public:
         callback_group_subscriber1_ = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
         auto sub1_opt = rclcpp::SubscriptionOptions();
         sub1_opt.callback_group = callback_group_subscriber1_;
-
         // 打印一句自我介绍
         RCLCPP_INFO(this->get_logger(), "大家好，我是单身汉王二.");
         // 创建一个订阅者来订阅李四写的小说，通过名字sexy_girl
@@ -27,7 +26,7 @@ public:
         // 创建发布者
         pub_ = this->create_publisher<std_msgs::msg::UInt32>("sexy_girl_money",10);
         // 创建卖二手书的服务
-        server_ = this->create_service<village_interfaces::srv::SellNovel>("sell_book",std::bind(&Wang2Node::sell_book_callback,this,_1,_2),rmw_qos_profile_services_default,callback_group_subscriber1_);
+        server_ = this->create_service<village_interfaces::srv::SellNovel>("sell_novel",std::bind(&Wang2Node::sell_book_callback,this,_1,_2),rmw_qos_profile_services_default,callback_group_subscriber1_);
     }
 
 private:
