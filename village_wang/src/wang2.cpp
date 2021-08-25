@@ -67,7 +67,7 @@ private:
         const village_interfaces::srv::SellNovel::Response::SharedPtr response)
     {
         RCLCPP_INFO(this->get_logger(), "收到一个买书请求，一共给了%d钱",request->money);
-        int novelsNum = request->money*1;  //应给小说数量，一块钱一章
+        unsigned int novelsNum = request->money*1;  //应给小说数量，一块钱一章
 
         //判断当前书库里书的数量是否满足张三要买的数量，不够则进入等待函数
         if(novels_queue.size()<novelsNum)
@@ -97,7 +97,7 @@ private:
         RCLCPP_INFO(this->get_logger(), "当前艳娘传奇章节存量为%d：已经满足需求",novels_queue.size());
 
         //一本本把书取出来，放进请求响应对象response中
-        for(int i =0 ;i<novelsNum;i++)
+        for(unsigned int i =0 ;i<novelsNum;i++)
         {
             response->novels.push_back(novels_queue.front());
             novels_queue.pop();
