@@ -62,48 +62,6 @@ private:
         novels_queue.push(msg->data);
     };
 
-    // 声明一个回调函数，当收到买书请求时调用该函数，用于处理数据
-    void sell_book_callback(const village_interfaces::srv::SellNovel::Request::SharedPtr request,
-        const village_interfaces::srv::SellNovel::Response::SharedPtr response)
-    {
-        RCLCPP_INFO(this->get_logger(), "收到一个买书请求，一共给了%d钱",request->money);
-        unsigned int novelsNum = request->money*1;  //应给小说数量，一块钱一章
-
-        //判断当前书库里书的数量是否满足张三要买的数量，不够则进入等待函数
-        if(novels_queue.size()<novelsNum)
-        {
-            RCLCPP_INFO(this->get_logger(), "当前艳娘传奇章节存量为%d：不能满足需求,开始等待",novels_queue.size());
-
-            // 设置rate周期为1s，代表1s检查一次
-            rclcpp::Rate loop_rate(1);
-
-            //当书库里小说数量小于请求数量时一直循环
-            while (novels_queue.size()<novelsNum)
-            {
-                //判断系统是否还在运行
-                if(!rclcpp::ok())
-                {
-                    RCLCPP_ERROR(this->get_logger(), "程序被终止了");
-                    return ;
-                }
-                //打印一下当前的章节数量和缺少的数量
-                RCLCPP_INFO(this->get_logger(), "等待中，目前已有%d章，还差%d章",novels_queue.size(),novelsNum-novels_queue.size());
-
-                //rate.sleep()让整个循环1s运行一次
-                loop_rate.sleep();
-            }
-        }
-        // 章节数量满足需求了
-        RCLCPP_INFO(this->get_logger(), "当前艳娘传奇章节存量为%d：已经满足需求",novels_queue.size());
-
-        //一本本把书取出来，放进请求响应对象response中
-        for(unsigned int i =0 ;i<novelsNum;i++)
-        {
-            response->novels.push_back(novels_queue.front());
-            novels_queue.pop();
-        }
-    }
-};
 
 int main(int argc, char **argv)
 {
