@@ -64,7 +64,7 @@ int main(int argc, char **argv)
     /*产生一个Zhang3的节点*/
     auto node = std::make_shared<Zhang3Node>();
     node->buy_novel();
-    /* 运行节点，并检测退出信号*/
+    /* 运行节点，并检测rclcpp状态*/
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
