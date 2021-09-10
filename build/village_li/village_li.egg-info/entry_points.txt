@@ -1,0 +1,4 @@
+[console_scripts]
+li3_node = village_li.li3:main
+li4_node = village_li.li4:main
+

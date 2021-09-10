@@ -1,0 +1,14 @@
+source;share/village_interfaces/hook/cmake_prefix_path.ps1
+source;share/village_interfaces/hook/cmake_prefix_path.dsv
+source;share/village_interfaces/hook/cmake_prefix_path.sh
+source;share/village_interfaces/hook/ld_library_path_lib.ps1
+source;share/village_interfaces/hook/ld_library_path_lib.dsv
+source;share/village_interfaces/hook/ld_library_path_lib.sh
+source;share/village_interfaces/hook/pythonpath.ps1
+source;share/village_interfaces/hook/pythonpath.dsv
+source;share/village_interfaces/hook/pythonpath.sh
+source;share/village_interfaces/local_setup.bash
+source;share/village_interfaces/local_setup.dsv
+source;share/village_interfaces/local_setup.ps1
+source;share/village_interfaces/local_setup.sh
+source;share/village_interfaces/local_setup.zsh

@@ -1,0 +1,41 @@
+/home/alyssa/.local/lib/python3.8/site-packages/setuptools/dist.py:697: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+running egg_info
+creating ../build/village_li/village_li.egg-info
+writing ../build/village_li/village_li.egg-info/PKG-INFO
+writing dependency_links to ../build/village_li/village_li.egg-info/dependency_links.txt
+writing entry points to ../build/village_li/village_li.egg-info/entry_points.txt
+writing requirements to ../build/village_li/village_li.egg-info/requires.txt
+writing top-level names to ../build/village_li/village_li.egg-info/top_level.txt
+writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+reading manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alyssa/ros2_town/build/village_li/build
+creating /home/alyssa/ros2_town/build/village_li/build/lib
+creating /home/alyssa/ros2_town/build/village_li/build/lib/village_li
+copying village_li/li3.py -> /home/alyssa/ros2_town/build/village_li/build/lib/village_li
+copying village_li/__init__.py -> /home/alyssa/ros2_town/build/village_li/build/lib/village_li
+copying village_li/li4.py -> /home/alyssa/ros2_town/build/village_li/build/lib/village_li
+running install
+running install_lib
+creating /home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages/village_li
+copying /home/alyssa/ros2_town/build/village_li/build/lib/village_li/li3.py -> /home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages/village_li
+copying /home/alyssa/ros2_town/build/village_li/build/lib/village_li/__init__.py -> /home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages/village_li
+copying /home/alyssa/ros2_town/build/village_li/build/lib/village_li/li4.py -> /home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages/village_li
+byte-compiling /home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages/village_li/li3.py to li3.cpython-38.pyc
+byte-compiling /home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages/village_li/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages/village_li/li4.py to li4.cpython-38.pyc
+running install_data
+creating /home/alyssa/ros2_town/install/village_li/share/ament_index
+creating /home/alyssa/ros2_town/install/village_li/share/ament_index/resource_index
+creating /home/alyssa/ros2_town/install/village_li/share/ament_index/resource_index/packages
+copying resource/village_li -> /home/alyssa/ros2_town/install/village_li/share/ament_index/resource_index/packages
+copying package.xml -> /home/alyssa/ros2_town/install/village_li/share/village_li
+running install_egg_info
+Copying ../build/village_li/village_li.egg-info to /home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages/village_li-0.0.0-py3.8.egg-info
+running install_scripts
+Installing li3_node script to /home/alyssa/ros2_town/install/village_li/lib/village_li
+Installing li4_node script to /home/alyssa/ros2_town/install/village_li/lib/village_li
+writing list of installed files to '/home/alyssa/ros2_town/build/village_li/install.log'

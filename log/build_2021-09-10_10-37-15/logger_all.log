@@ -1,0 +1,320 @@
+[0.195s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.195s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7feb081b8070>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7feb081b8070>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7feb081b85b0>)
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.198s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alyssa/ros2_town'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(village_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(village_interfaces) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(village_interfaces) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(village_interfaces) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(village_interfaces) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(village_interfaces) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(village_interfaces) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(village_interfaces) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(village_interfaces) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'village_interfaces' with type 'ros.ament_cmake' and name 'village_interfaces'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(village_li) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(village_li) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(village_li) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(village_li) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(village_li) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(village_li) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(village_li) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(village_li) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(village_li) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'village_li' with type 'ros.ament_python' and name 'village_li'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_wang) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_wang) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_wang) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_wang) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_wang) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_wang) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_wang) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_wang) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_wang) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'village_wang' with type 'ros.ament_cmake' and name 'village_wang'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_zhang) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_zhang) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_zhang) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_zhang) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(village_zhang) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(village_zhang) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(village_zhang) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(village_zhang) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(village_zhang) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'village_zhang' with type 'ros.ament_cmake' and name 'village_zhang'
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'village_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alyssa/ros2_town/build/village_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alyssa/ros2_town/install/village_interfaces', 'merge_install': False, 'path': '/home/alyssa/ros2_town/village_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'village_li' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alyssa/ros2_town/build/village_li', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alyssa/ros2_town/install/village_li', 'merge_install': False, 'path': '/home/alyssa/ros2_town/village_li', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'village_wang' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alyssa/ros2_town/build/village_wang', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alyssa/ros2_town/install/village_wang', 'merge_install': False, 'path': '/home/alyssa/ros2_town/village_wang', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'village_zhang' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'village_zhang' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alyssa/ros2_town/build/village_zhang', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alyssa/ros2_town/install/village_zhang', 'merge_install': False, 'path': '/home/alyssa/ros2_town/village_zhang', 'symlink_install': False, 'test_result_base': None}
+[0.232s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alyssa/ros2_town/village_interfaces' with build type 'ament_cmake'
+[0.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alyssa/ros2_town/village_interfaces'
+[0.238s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alyssa/ros2_town/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_interfaces
+[1.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alyssa/ros2_town/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_interfaces
+[1.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_interfaces -- -j8 -l8
+[4.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_interfaces -- -j8 -l8
+[4.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_interfaces
+[4.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_interfaces)
+[4.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_interfaces
+[4.749s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces' for CMake module files
+[4.749s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces' for CMake config files
+[4.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'cmake_prefix_path')
+[4.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.ps1'
+[4.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.dsv'
+[4.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.sh'
+[4.752s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces/lib'
+[4.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'ld_library_path_lib')
+[4.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.ps1'
+[4.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.dsv'
+[4.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.sh'
+[4.753s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces/bin'
+[4.753s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces/lib/pkgconfig/village_interfaces.pc'
+[4.753s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages'
+[4.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'pythonpath')
+[4.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/pythonpath.ps1'
+[4.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/pythonpath.dsv'
+[4.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/pythonpath.sh'
+[4.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.ps1'
+[4.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.dsv'
+[4.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.sh'
+[4.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.bash'
+[4.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.zsh'
+[4.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alyssa/ros2_town/install/village_interfaces/share/colcon-core/packages/village_interfaces)
+[4.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_interfaces)
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces' for CMake module files
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces' for CMake config files
+[4.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'cmake_prefix_path')
+[4.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.ps1'
+[4.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.dsv'
+[4.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/cmake_prefix_path.sh'
+[4.808s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces/lib'
+[4.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'ld_library_path_lib')
+[4.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.ps1'
+[4.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.dsv'
+[4.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/ld_library_path_lib.sh'
+[4.809s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces/bin'
+[4.809s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces/lib/pkgconfig/village_interfaces.pc'
+[4.809s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages'
+[4.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_interfaces', 'pythonpath')
+[4.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/pythonpath.ps1'
+[4.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/pythonpath.dsv'
+[4.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/hook/pythonpath.sh'
+[4.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.ps1'
+[4.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.dsv'
+[4.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.sh'
+[4.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.bash'
+[4.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.zsh'
+[4.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alyssa/ros2_town/install/village_interfaces/share/colcon-core/packages/village_interfaces)
+[4.812s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alyssa/ros2_town/village_li' with build type 'ament_python'
+[4.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_li', 'ament_prefix_path')
+[4.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_li/share/village_li/hook/ament_prefix_path.ps1'
+[4.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_li/share/village_li/hook/ament_prefix_path.dsv'
+[4.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_li/share/village_li/hook/ament_prefix_path.sh'
+[4.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.815s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.817s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alyssa/ros2_town/village_wang' with build type 'ament_cmake'
+[4.817s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alyssa/ros2_town/village_wang'
+[4.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.821s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.824s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alyssa/ros2_town/village_zhang' with build type 'ament_cmake'
+[4.824s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alyssa/ros2_town/village_zhang'
+[4.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.827s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.994s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alyssa/ros2_town/village_li'
+[4.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.997s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[5.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/build/village_wang': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alyssa/ros2_town/village_wang -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_wang
+[5.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/build/village_zhang': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alyssa/ros2_town/village_zhang -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_zhang
+[5.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/village_li': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages:/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_li build --build-base /home/alyssa/ros2_town/build/village_li/build install --prefix /home/alyssa/ros2_town/install/village_li --record /home/alyssa/ros2_town/build/village_li/install.log --single-version-externally-managed
+[5.262s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_li' for CMake module files
+[5.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/village_li' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages:/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_li build --build-base /home/alyssa/ros2_town/build/village_li/build install --prefix /home/alyssa/ros2_town/install/village_li --record /home/alyssa/ros2_town/build/village_li/install.log --single-version-externally-managed
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_li' for CMake config files
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_li/lib'
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_li/bin'
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_li/lib/pkgconfig/village_li.pc'
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_li/lib/python3.8/site-packages'
+[5.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_li', 'pythonpath')
+[5.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_li/share/village_li/hook/pythonpath.ps1'
+[5.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_li/share/village_li/hook/pythonpath.dsv'
+[5.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_li/share/village_li/hook/pythonpath.sh'
+[5.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_li)
+[5.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_li/share/village_li/package.ps1'
+[5.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alyssa/ros2_town/install/village_li/share/village_li/package.dsv'
+[5.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_li/share/village_li/package.sh'
+[5.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_li/share/village_li/package.bash'
+[5.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_li/share/village_li/package.zsh'
+[5.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alyssa/ros2_town/install/village_li/share/colcon-core/packages/village_li)
+[6.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/build/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alyssa/ros2_town/village_zhang -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_zhang
+[6.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/build/village_zhang': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_zhang -- -j8 -l8
+[6.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alyssa/ros2_town/village_wang -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_wang
+[6.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/build/village_wang': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_wang -- -j8 -l8
+[8.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/build/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_zhang -- -j8 -l8
+[8.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/build/village_zhang': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_zhang
+[8.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_zhang)
+[8.133s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang' for CMake module files
+[8.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/build/village_zhang' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_zhang
+[8.133s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang' for CMake config files
+[8.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_zhang', 'cmake_prefix_path')
+[8.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.ps1'
+[8.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.dsv'
+[8.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.sh'
+[8.135s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang/lib'
+[8.135s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang/bin'
+[8.135s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang/lib/pkgconfig/village_zhang.pc'
+[8.135s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang/lib/python3.8/site-packages'
+[8.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.ps1'
+[8.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.dsv'
+[8.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.sh'
+[8.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.bash'
+[8.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.zsh'
+[8.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alyssa/ros2_town/install/village_zhang/share/colcon-core/packages/village_zhang)
+[8.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_zhang)
+[8.154s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang' for CMake module files
+[8.154s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang' for CMake config files
+[8.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_zhang', 'cmake_prefix_path')
+[8.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.ps1'
+[8.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.dsv'
+[8.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/hook/cmake_prefix_path.sh'
+[8.156s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang/lib'
+[8.156s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang/bin'
+[8.156s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang/lib/pkgconfig/village_zhang.pc'
+[8.156s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_zhang/lib/python3.8/site-packages'
+[8.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.ps1'
+[8.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.dsv'
+[8.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.sh'
+[8.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.bash'
+[8.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.zsh'
+[8.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alyssa/ros2_town/install/village_zhang/share/colcon-core/packages/village_zhang)
+[10.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_wang -- -j8 -l8
+[10.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alyssa/ros2_town/build/village_wang': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_wang
+[10.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[10.175s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang' for CMake module files
+[10.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alyssa/ros2_town/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_wang
+[10.175s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang' for CMake config files
+[10.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[10.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[10.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[10.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[10.177s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang/lib'
+[10.177s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang/bin'
+[10.177s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang/lib/pkgconfig/village_wang.pc'
+[10.177s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang/lib/python3.8/site-packages'
+[10.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.ps1'
+[10.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.dsv'
+[10.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.sh'
+[10.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.bash'
+[10.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.zsh'
+[10.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alyssa/ros2_town/install/village_wang/share/colcon-core/packages/village_wang)
+[10.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[10.196s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang' for CMake module files
+[10.196s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang' for CMake config files
+[10.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[10.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[10.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alyssa/ros2_town/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[10.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alyssa/ros2_town/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[10.198s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang/lib'
+[10.198s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang/bin'
+[10.198s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang/lib/pkgconfig/village_wang.pc'
+[10.198s] Level 1:colcon.colcon_core.environment:checking '/home/alyssa/ros2_town/install/village_wang/lib/python3.8/site-packages'
+[10.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.ps1'
+[10.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.dsv'
+[10.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.sh'
+[10.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.bash'
+[10.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/alyssa/ros2_town/install/village_wang/share/village_wang/package.zsh'
+[10.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alyssa/ros2_town/install/village_wang/share/colcon-core/packages/village_wang)
+[10.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.200s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.215s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.216s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alyssa/ros2_town/install/local_setup.ps1'
+[10.217s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alyssa/ros2_town/install/_local_setup_util_ps1.py'
+[10.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alyssa/ros2_town/install/setup.ps1'
+[10.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alyssa/ros2_town/install/local_setup.sh'
+[10.220s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alyssa/ros2_town/install/_local_setup_util_sh.py'
+[10.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alyssa/ros2_town/install/setup.sh'
+[10.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alyssa/ros2_town/install/local_setup.bash'
+[10.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alyssa/ros2_town/install/setup.bash'
+[10.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alyssa/ros2_town/install/local_setup.zsh'
+[10.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alyssa/ros2_town/install/setup.zsh'

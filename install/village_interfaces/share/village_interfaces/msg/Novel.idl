@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from village_interfaces/msg/Novel.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module village_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 标准消息接口 字符串")
+    struct Novel {
+      string content;
+
+      @verbatim (language="comment", text=
+        " 图像消息，调用sensor_msgs下的Image类型")
+      sensor_msgs::msg::Image image;
+    };
+  };
+};

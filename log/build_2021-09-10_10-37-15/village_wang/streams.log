@@ -1,0 +1,77 @@
+[0.184s] Invoking command in '/home/alyssa/ros2_town/build/village_wang': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alyssa/ros2_town/village_wang -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_wang
+[0.222s] -- The C compiler identification is GNU 9.3.0
+[0.258s] -- The CXX compiler identification is GNU 9.3.0
+[0.262s] -- Check for working C compiler: /usr/bin/cc
+[0.308s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.308s] -- Detecting C compiler ABI info
+[0.359s] -- Detecting C compiler ABI info - done
+[0.367s] -- Detecting C compile features
+[0.367s] -- Detecting C compile features - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.438s] -- Detecting CXX compiler ABI info
+[0.495s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Detecting CXX compile features
+[0.504s] -- Detecting CXX compile features - done
+[0.505s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.523s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.523s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.674s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.725s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.786s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.811s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.872s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.912s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.913s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.914s] -- Looking for pthread.h
+[0.961s] -- Looking for pthread.h - found
+[0.961s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.010s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.010s] -- Looking for pthread_create in pthreads
+[1.051s] -- Looking for pthread_create in pthreads - not found
+[1.051s] -- Looking for pthread_create in pthread
+[1.097s] -- Looking for pthread_create in pthread - found
+[1.098s] -- Found Threads: TRUE  
+[1.211s] -- Found village_interfaces: 0.0.0 (/home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake)
+[1.383s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.444s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.445s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.445s] -- Configured cppcheck include dirs: 
+[1.445s] -- Configured cppcheck exclude dirs and/or files: 
+[1.445s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.445s] -- Configured cpplint exclude dirs and/or files: 
+[1.445s] -- Added test 'lint_cmake' to check CMake code style
+[1.446s] -- Added test 'uncrustify' to check C / C++ code style
+[1.446s] -- Configured uncrustify additional arguments: 
+[1.446s] -- Added test 'xmllint' to check XML markup files
+[1.451s] -- Configuring done
+[1.455s] -- Generating done
+[1.456s] -- Build files have been written to: /home/alyssa/ros2_town/build/village_wang
+[1.464s] Invoked command in '/home/alyssa/ros2_town/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alyssa/ros2_town/village_wang -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_wang
+[1.466s] Invoking command in '/home/alyssa/ros2_town/build/village_wang': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_wang -- -j8 -l8
+[1.494s] [35m[1mScanning dependencies of target wang2_node[0m
+[1.527s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[5.140s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[5.321s] [100%] Built target wang2_node
+[5.328s] Invoked command in '/home/alyssa/ros2_town/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_wang -- -j8 -l8
+[5.346s] Invoking command in '/home/alyssa/ros2_town/build/village_wang': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_wang
+[5.353s] -- Install configuration: ""
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/environment/path.sh
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/environment/path.dsv
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/local_setup.bash
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/local_setup.sh
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/local_setup.zsh
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/local_setup.dsv
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/package.dsv
+[5.353s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[5.354s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[5.354s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[5.354s] -- Installing: /home/alyssa/ros2_town/install/village_wang/share/village_wang/package.xml
+[5.354s] -- Installing: /home/alyssa/ros2_town/install/village_wang/lib/village_wang/wang2_node
+[5.355s] -- Set runtime path of "/home/alyssa/ros2_town/install/village_wang/lib/village_wang/wang2_node" to ""
+[5.357s] Invoked command in '/home/alyssa/ros2_town/build/village_wang' returned '0': AMENT_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alyssa/ros2_town/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/alyssa/ros2_town/install/village_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_wang

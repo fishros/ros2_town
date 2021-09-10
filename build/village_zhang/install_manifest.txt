@@ -1,0 +1,16 @@
+/home/alyssa/ros2_town/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+/home/alyssa/ros2_town/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/environment/path.sh
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/environment/path.dsv
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/local_setup.bash
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/local_setup.sh
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/local_setup.zsh
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/local_setup.dsv
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.dsv
+/home/alyssa/ros2_town/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+/home/alyssa/ros2_town/install/village_zhang/share/village_zhang/package.xml
+/home/alyssa/ros2_town/install/village_zhang/lib/village_zhang/zhang3_node

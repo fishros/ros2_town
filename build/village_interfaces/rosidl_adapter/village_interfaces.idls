@@ -1,0 +1,3 @@
+/home/alyssa/ros2_town/build/village_interfaces/rosidl_adapter/village_interfaces:msg/Novel.idl
+/home/alyssa/ros2_town/build/village_interfaces/rosidl_adapter/village_interfaces:srv/BorrowMoney.idl
+/home/alyssa/ros2_town/build/village_interfaces/rosidl_adapter/village_interfaces:srv/SellNovel.idl

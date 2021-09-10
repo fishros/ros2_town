@@ -1,0 +1,6 @@
+source;share/village_li/hook/pythonpath.ps1
+source;share/village_li/hook/pythonpath.dsv
+source;share/village_li/hook/pythonpath.sh
+source;share/village_li/hook/ament_prefix_path.ps1
+source;share/village_li/hook/ament_prefix_path.dsv
+source;share/village_li/hook/ament_prefix_path.sh

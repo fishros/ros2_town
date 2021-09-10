@@ -1,0 +1,170 @@
+[0.013s] Invoking command in '/home/alyssa/ros2_town/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_interfaces -- -j8 -l8
+[0.050s] [  2%] Built target village_interfaces__cpp
+[0.052s] [ 12%] Built target village_interfaces__rosidl_generator_c
+[0.070s] [ 23%] Built target village_interfaces__rosidl_typesupport_cpp
+[0.070s] [ 34%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[0.070s] [ 44%] Built target village_interfaces__rosidl_typesupport_c
+[0.071s] [ 55%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.071s] [ 65%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[0.092s] [ 76%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[0.107s] [ 76%] Built target village_interfaces
+[0.123s] [ 78%] Built target village_interfaces__py
+[0.142s] [ 87%] Built target village_interfaces__python
+[0.162s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[0.162s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.162s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.170s] Invoked command in '/home/alyssa/ros2_town/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_interfaces -- -j8 -l8
+[0.229s] Invoking command in '/home/alyssa/ros2_town/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_interfaces
+[0.235s] -- Install configuration: ""
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.h
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.h
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.h
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.c
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/novel.h
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.h
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.h
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__functions.c
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.h
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__struct.h
+[0.236s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.h
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.c
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__functions.h
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/borrow_money.h
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/sell_novel.h
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_c.h
+[0.237s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/dds_fastrtps
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/dds_fastrtps
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.c
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.c
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.c
+[0.238s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_c.h
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__builder.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__traits.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/novel.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__traits.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__traits.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__builder.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__struct.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__builder.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/borrow_money.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/sell_novel.hpp
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail
+[0.239s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.cpp
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.cpp
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__type_support.cpp
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/sell_novel__rosidl_typesupport_introspection_cpp.hpp
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[0.240s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/__init__.py
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel.py
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel_s.c
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money.py
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money_s.c
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_sell_novel.py
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/__init__.py
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_sell_novel_s.c
+[0.259s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.260s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.260s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.260s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/lib/libvillage_interfaces__python.so
+[0.260s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/msg/Novel.idl
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.idl
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/srv/SellNovel.idl
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/msg/Novel.msg
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.srv
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Request.msg
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Response.msg
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/srv/SellNovel.srv
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/srv/SellNovel_Request.msg
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/srv/SellNovel_Response.msg
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/environment/path.sh
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/local_setup.bash
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/local_setup.sh
+[0.261s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[0.262s] -- Installing: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.dsv
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cppExport.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.262s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.263s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.263s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.263s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.263s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.263s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.263s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.263s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[0.263s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[0.263s] -- Up-to-date: /home/alyssa/ros2_town/install/village_interfaces/share/village_interfaces/package.xml
+[0.265s] Invoked command in '/home/alyssa/ros2_town/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_interfaces
