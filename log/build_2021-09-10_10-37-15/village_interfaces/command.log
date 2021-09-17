@@ -1,6 +1,0 @@
-Invoking command in '/home/alyssa/ros2_town/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alyssa/ros2_town/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_interfaces
-Invoked command in '/home/alyssa/ros2_town/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/alyssa/ros2_town/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/alyssa/ros2_town/install/village_interfaces
-Invoking command in '/home/alyssa/ros2_town/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_interfaces -- -j8 -l8
-Invoked command in '/home/alyssa/ros2_town/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/alyssa/ros2_town/build/village_interfaces -- -j8 -l8
-Invoking command in '/home/alyssa/ros2_town/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_interfaces
-Invoked command in '/home/alyssa/ros2_town/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/alyssa/ros2_town/build/village_interfaces

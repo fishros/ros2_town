@@ -1,8 +1,0 @@
-{
-  "package_name": "village_interfaces",
-  "non_idl_tuples": [
-    "/home/alyssa/ros2_town/village_interfaces:msg/Novel.msg",
-    "/home/alyssa/ros2_town/village_interfaces:srv/BorrowMoney.srv",
-    "/home/alyssa/ros2_town/village_interfaces:srv/SellNovel.srv"
-  ]
-}
