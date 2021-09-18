@@ -3,6 +3,7 @@
 #include "std_msgs/msg/string.hpp"
 #include "std_msgs/msg/u_int32.hpp"
 #include "village_interfaces/srv/sell_novel.hpp"
+#include "village_interfaces/msg/novel.hpp"
 #include <queue>
 
 using std::placeholders::_1;
@@ -21,7 +22,7 @@ public:
         // 打印一句自我介绍
         RCLCPP_INFO(this->get_logger(), "大家好，我是单身汉王二.");
         // 创建一个订阅者来订阅李四写的小说，通过名字sexy_girl
-        sub_ = this->create_subscription<std_msgs::msg::String>("sexy_girl", 10, std::bind(&Wang2Node::topic_callback, this, _1));
+        sub_ = this->create_subscription<village_interfaces::msg::Novel>("sexy_girl", 10, std::bind(&Wang2Node::topic_callback, this, _1));
         // 创建发布者
         pub_ = this->create_publisher<std_msgs::msg::UInt32>("sexy_girl_money", 10);
         //实例化回调组
@@ -31,26 +32,30 @@ public:
                                                                            std::bind(&Wang2Node::sell_book_callback, this, _1, _2),
                                                                            rmw_qos_profile_services_default,
                                                                            callback_group_service_);
+        this->declare_parameter<std::int32_t>("novel_price",novel_price);
     }
 
 private:
+    //声明一下书的单价
+    unsigned int novel_price = 1;
+
     // 声明一个服务回调组
     rclcpp::CallbackGroup::SharedPtr callback_group_service_;
 
     // 声明一个订阅者（成员变量）
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_;
+    rclcpp::Subscription<village_interfaces::msg::Novel>::SharedPtr sub_;
 
     // 声明一个发布者（成员变量）
     rclcpp::Publisher<std_msgs::msg::UInt32>::SharedPtr pub_;
 
     //创建一个小说章节队列
-    std::queue<std::string> novels_queue;
+    std::queue<village_interfaces::msg::Novel::SharedPtr> novels_queue;
 
     // 声明一个服务端
     rclcpp::Service<village_interfaces::srv::SellNovel>::SharedPtr server_;
 
     // 收到话题数据的回调函数
-    void topic_callback(const std_msgs::msg::String::SharedPtr msg)
+    void topic_callback(const village_interfaces::msg::Novel::SharedPtr msg)
     {
         // 新建一张人民币
         std_msgs::msg::UInt32 money;
@@ -58,10 +63,10 @@ private:
 
         // 发送人民币给李四
         pub_->publish(money);
-        RCLCPP_INFO(this->get_logger(), "王二：我收到了：'%s' ，并给了李四：%d 元的稿费", msg->data.c_str(), money.data);
-
+        RCLCPP_INFO(this->get_logger(), "王二：我收到了：'%s',插图长：%d,宽：%d ，并给了李四：%d 元的稿费", msg->content.c_str(),msg->image.height,msg->image.width, money.data);
+        
         //将小说放入novels_queue中
-        novels_queue.push(msg->data);
+        novels_queue.push(msg);
     };
 
     // 声明一个回调函数，当收到买书请求时调用该函数，用于处理数据
@@ -69,7 +74,8 @@ private:
                             const village_interfaces::srv::SellNovel::Response::SharedPtr response)
     {
         RCLCPP_INFO(this->get_logger(), "收到一个买书请求，一共给了%d钱", request->money);
-        unsigned int novelsNum = request->money * 1; //应给小说数量，一块钱一章
+        this->get_parameter("novel_price",novel_price);
+        unsigned int novelsNum = int(request->money/novel_price); //应给小说数量
 
         //判断当前书库里书的数量是否满足张三要买的数量，不够则进入等待函数
         if (novels_queue.size() < novelsNum)
@@ -101,7 +107,7 @@ private:
         //一本本把书取出来，放进请求响应对象response中
         for (unsigned int i = 0; i < novelsNum; i++)
         {
-            response->novels.push_back(novels_queue.front());
+            response->novels.push_back(novels_queue.front()->content);
             novels_queue.pop();
         }
     }

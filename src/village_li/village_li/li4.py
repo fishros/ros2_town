@@ -55,11 +55,10 @@ class Li4Node(Node):
     def timer_callback(self):
         msg = Novel()
         msg.content = '第%d回：潋滟湖 %d 次偶遇胡艳娘' % (self.i,self.i)
-        msg.image = '插图的长为：%d，宽为：%d' %(self.image.length,self.image.width)
         msg.image = self.image
         self.write.publish(msg)  #将小说内容发布出去
         self.get_logger().info('李四:我发布了艳娘传奇："%s"' % msg.content)    #打印一下发布的数据，供我们看
-        self.get_logger().info('李四:为艳娘传奇配上了插图，长："%d"，宽：%d' % (msg.image.height,msg.image.width))    #打印一下发布的插图尺寸，供我们看
+        self.get_logger().info('李四:为艳娘传奇配上了插图，长：%d，宽：%d' % (msg.image.height,msg.image.width))    #打印一下发布的插图尺寸，供我们看
         self.i += 1 #章节编号+1
 
         # 回调之后更新回调周期

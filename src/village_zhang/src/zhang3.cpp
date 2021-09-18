@@ -11,7 +11,7 @@ class Zhang3Node : public rclcpp::Node
 {
 
 public:
-    Zhang3Node() : Node("wang2")
+    Zhang3Node() : Node("zhang3")
     {
         // 打印一句自我介绍
         RCLCPP_INFO(this->get_logger(), "大家好，我是得了穷病的张三.");
