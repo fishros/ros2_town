@@ -1,0 +1,5 @@
+string name
+uint32 money
+---
+bool success
+uint32 money
