@@ -61,7 +61,7 @@ private:
 
         // 发送人民币给李四
         pub_money->publish(money);
-        RCLCPP_INFO(this->get_logger(), "王二：朕已阅：'%s'，打赏李四：%d 元的稿费", msg->data.c_str(), money.data);
+        RCLCPP_INFO(this->get_logger(), "朕已阅：'%s'，打赏李四：%d 元的稿费", msg->data.c_str(), money.data);
 
         //将小说放入novels_queue中
         novels_queue.push(msg);
