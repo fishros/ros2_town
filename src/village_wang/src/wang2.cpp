@@ -31,6 +31,7 @@ public:
                                                                                 std::bind(&SingleDogNode::sell_book_callback, this, _1, _2),
                                                                                 rmw_qos_profile_services_default,
                                                                                 callback_group_service_);
+        this->declare_parameter<std::int32_t>("novel_price",novel_price);
     }
 
 private:
@@ -72,6 +73,7 @@ private:
                             const village_interfaces::srv::SellNovel::Response::SharedPtr response)
     {
         RCLCPP_INFO(this->get_logger(), "收到一个买书请求，一共给了%d钱", request->money);
+        this->get_parameter("novel_price",novel_price); //更新小说价钱
         unsigned int novelsNum = int(request->money / novel_price); //应给小说数量
 
         //判断当前书库里书的数量是否满足张三要买的数量，不够则进入等待函数
