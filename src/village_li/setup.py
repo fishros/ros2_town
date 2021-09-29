@@ -1,5 +1,6 @@
 from setuptools import setup
-import os,glob
+import os
+from glob import glob
 
 package_name = 'village_li'
 
