@@ -27,10 +27,10 @@ public:
         //实例化回调组
         callback_group_service_ = this->create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
         // 实例化卖二手书的服务
-        server_ = this->create_service<village_interfaces::srv::SellNovel>("sell_novel",
-                                                                           std::bind(&SingleDogNode::sell_book_callback, this, _1, _2),
-                                                                           rmw_qos_profile_services_default,
-                                                                           callback_group_service_);
+        server_sell = this->create_service<village_interfaces::srv::SellNovel>("sell_novel",
+                                                                                std::bind(&SingleDogNode::sell_book_callback, this, _1, _2),
+                                                                                rmw_qos_profile_services_default,
+                                                                                callback_group_service_);
     }
 
 private:
@@ -50,7 +50,7 @@ private:
     int novel_price = 1;
 
     // 声明一个服务端
-    rclcpp::Service<village_interfaces::srv::SellNovel>::SharedPtr server_;
+    rclcpp::Service<village_interfaces::srv::SellNovel>::SharedPtr server_sell;
 
     // 收到话题数据的回调函数
     void topic_callback(const std_msgs::msg::String::SharedPtr msg)
@@ -61,7 +61,7 @@ private:
 
         // 发送人民币给李四
         pub_money->publish(money);
-        RCLCPP_INFO(this->get_logger(), "王二：我收到了：'%s'，并给了李四：%d 元的稿费", msg->data.c_str(), money.data);
+        RCLCPP_INFO(this->get_logger(), "王二：朕已阅：'%s'，打赏李四：%d 元的稿费", msg->data.c_str(), money.data);
 
         //将小说放入novels_queue中
         novels_queue.push(msg);

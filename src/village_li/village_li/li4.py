@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
+# 导入话题消息类型
 from std_msgs.msg import String,UInt32
-#从村庄接口服务类中导入借钱服务
+# 从村庄接口服务类中导入借钱服务
 from village_interfaces.srv import BorrowMoney
 
 
@@ -27,7 +28,7 @@ class WriterNode(Node):
         # 账户钱的数量
         self.account = 80
         # 创建并初始化订阅者成员属性submoney
-        self.sub_ = self.create_subscription(UInt32,"sexy_girl_money",self.recv_money_callback,10)
+        self.submoney = self.create_subscription(UInt32,"sexy_girl_money",self.recv_money_callback,10)
         
         # 创建向外借钱服务
         self.borrow_server = self.create_service(BorrowMoney, "borrow_money", self.borrow_money_callback)
