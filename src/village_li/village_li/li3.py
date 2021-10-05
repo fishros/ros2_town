@@ -4,6 +4,7 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from village_interfaces.srv import BorrowMoney
 
+# 白嫖党节点
 class BaiPiaoNode(Node):
     """
     创建一个李三节点，并在初始化时输出一个话
