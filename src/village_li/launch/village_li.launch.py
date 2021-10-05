@@ -10,6 +10,7 @@ def generate_launch_description():
     li4_node = Node(
         package="village_li",
         executable="li4_node",
+        output='screen',  #四个可选项 
         parameters=[{'write_timer_period': 1}]
         )
     # 创建Actions.Node对象wang2_node，标明王二所在位置
@@ -33,6 +34,7 @@ def generate_launch_description():
         executable="wang2_node",
         parameters=[{'novel_price': 1}]
     )
+
     # 创建LaunchDescription对象launch_description,用于描述launch文件
     launch_description = LaunchDescription([li4_node,wang2_node,wang2_node2,li4_node2])
     # 返回让ROS2根据launch描述执行节点
