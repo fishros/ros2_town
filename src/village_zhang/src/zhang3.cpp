@@ -63,7 +63,7 @@ private:
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
-    /*产生一个Zhang3的节点*/
+    /*产生一个PoorManNode的节点*/
     auto node = std::make_shared<PoorManNode>("zhang3");
     node->buy_novel();
     /* 运行节点，并检测rclcpp状态*/
